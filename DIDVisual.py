@@ -6,8 +6,6 @@ import plotly.graph_objs as go
 import pandas as pd
 #import dash_auth # pip install dash-auth
 
-pip install pytest
-
 #USERNAME_PASSWORD_PAIRS = [['username','password'], ['Bikasvisual', 'Bikas@Mcgill']]
 
 
