@@ -1,0 +1,52 @@
+﻿Embodiment Function,Kingdom,Biological Feature,Biological feature characteristic,Domain,Tissues
+Repel Water Droplets,Plant,Micro/Nano projections (Lotus leaf),Body/Skin texture (Plants),Surfaces,Epidermal tissue (Micro-papillae and epicuticular wax) 
+Repel Water Droplets,Plant,Micro/Nano projections (Rose petal),Body/Skin texture (Plants),Surfaces,Epidermal tissue (Micro-papillae and epicuticular wax) 
+Repel Water Droplets,Animal,Micro/Nano projections (Butterfly Wings),Body/Skin texture (Animals),Surfaces, Epidermis (wing scales) 
+Repel Water Droplets,Animal,Micro/Nano projections (Silver ragwort),Body/Skin texture (Animals),Surfaces,Epidermal tissue
+Repel Water Droplets,Plant,Micro/Nano projections (Rice Leaf),Body/Skin texture (Plants),Surfaces,Epidermal tissue (Micro-papillae and epicuticular wax) 
+Repel Water Droplets,Animal,Micro/Nano projections (Cicada Wings),Body/Skin texture (Animals),Surfaces,Epidermal tissue (epidermal structures) 
+Repel Water Droplets,Animal,Hair  (Water Strider),Body coat (Animals),Surfaces,Microtrichia (epidermal cells) 
+Repel Water Droplets,Plant,Micro/Nano projections (Nepenthes),Body/Skin texture (Plants),Surfaces,Epicuticular wax and epidermal cells 
+Repel Water Droplets,Animal,Micro/Nano projections (Mosquito Eyes),Body/Skin texture (Animals),Surfaces,2D Epithelium and 3D Ommatidium 
+Adhere to Surface,Animal,Hair (Gecko Feet),Body coats (Animals),Surfaces,Epidermal tissue (Setae) 
+Adhere to an inclined surface,Plant,Micro/Nano projections (Rose petals),Body/Skin texture (Plants),Surfaces,Epidermal tissue (Micro-papillae and epicuticular wax) 
+Adhere to an inclined surface,Animal,Micro/Nano projections (Butterfly wings),Body/Skin texture (Animals),Surfaces, Epidermis (wing scales) 
+Repel micro-scale droplets,Animal,Micro/Nano projections (Mosquito Eyes),Body/Skin texture (Animals),Surfaces,2D Epithelium and 3D Ommatidium
+Resistance to wear & Resistance to abrasion,Animal,Scales (Borrowing Pangolin) ,Body/Skin texture (Animals),Surfaces,Keratinous scales 
+Resistance to biofouling,Animal,Placoid Scales (Sharkskin),Scales (Animals),Surfaces,Dermal denticles (Dentine) 
+Reduce aerodynamic and fluidic drag,Animal,Placoid Scales (Sharkskin),Scales (Animals),Surfaces,Dermal denticles (Dentine) 
+Reduce aerodynamic and fluidic drag,Animal,Micro/Nano projections (Dolphin),Body/Skin texture (Animals),Surfaces,Dermal papillae and epidermal ridges 
+Reduce Noise ,Animal,Feather serrations (Owl),Body coats (Animals),Surfaces,Keratin structural proteins/Keratinous material 
+Manage variable friction,Animal,Scales (Snakeskin),Body/Skin texture (Animals),Surfaces,Epidermis and Keratin proteins 
+Resist erosion,Animal,Micro/Nano projections (Desert scorpion),Body/Skin texture (Animals),Surfaces,Cuticle (Extracellular matrix by epidermis) 
+Reduce friction,Plant,Micro/Nano projections (Pitcher plant),Body/Skin texture (Plants),Surfaces,Epidermal tissue 
+Absorb water,Animal,Micro/Nano projections (Namib desert beetle),Body/Skin texture (Animals),Surfaces,Epicuticle and Epidermis 
+Resist Shear,Animal,Tiles (Ray Fish),Hard outer cover Tiles (Animals),Surfaces,Tesserae (Cartilage) 
+Resist compression,Animal,Outer plate (Mantis shrimp - dactyl club),Hard outer cover Plates (Animals),Surfaces,Calcareous exoskeleton 
+Resist compression,Animal,Outer shell (Abalone),Hard outer cover Shell (Animals),Surfaces,Mollusc Shell (Calcareous exoskeleton) 
+Absorb energy,Animal,Outer shell (Conch),Hard outer cover Shell (Animals),Surfaces,Mollusc Shell (Calcareous exoskeleton) 
+Absorb energy,Animal,Outer shell (Nacre),Hard outer cover Shell (Animals),Surfaces,Mollusc Shell (Calcareous exoskeleton) 
+Absorb energy,Animal,Outer shell (Crab),Hard outer cover Shell (Animals),Surfaces,Mollusc Shell (Calcareous exoskeleton) 
+Absorb energy,Animal,Scales (Fish),Scales (Animals),Surfaces,Dermal scales (epidermal cells) 
+Resist retraction and Ease insertion,Animal,Micro/Nano projections (Porcupine),Body/Skin texture (Animals),Surfaces,Keratinous material 
+Resist impact,Animal,Skull (Woodpecker),Sandwich Shell (Animals),Surfaces,Hard outer shell and bone (Connective tissue) 
+Reduce weight,Animal,Skull (Bird),Sandwich Shell (Animals),Surfaces,Sandwich of External hard cover and trabeculae (Connective Tissue) 
+"Absorb energy, absorb water, and Filter water",Plant,Skeletal Body (Luffa sponge),Hierarchical tessellation (Plants),Cellular structures,Xylem and Phloem (Vascular bundles) 
+Absorb energy,Animal,Elytra forewing (Beetle),Hierarchical tessellation (Animals),Cellular structures,Honeycomb Trabeculae (Connective tissue) 
+Resist compression,Plant,Skeletal Body (Venus flower basket),Hierarchical tessellation (Plants),Cellular structures,Silica-based cylindrical skeletons 
+Resist compression and impact,Plant,Peel (Pomelo),Stochastic tessellation (Plants),Cellular structures,Vascular bundles and Parenchymatic tissue 
+Reduce weight and Resist compression ,Animal,Cuttle Bone (Cuttlefish) ,Periodic tessellation (Animals),Cellular structures,Dorsal shield and lamellar matrix (Aragonite and Beta Chitin)
+Reduce bending,Plant,Leaf (Amazon Waterlily),Hierarchical tessellation (Plants),Cellular structures,Xylem and Phloem 
+Reduce drag,Animal,Overall shape (Penguin),Full Body contour (Animals),Shapes,Body skeleton and Muscles (Connective and Muscular tissues)
+Reduce drag,Animal,Overall shape (Boxfish),Full Body contour (Animals),Shapes,Body skeleton-Carapace and collagen fibres and Muscular tissue
+Absorb energy,Animal,Overall shape (Diatom),Full Body contour (Animals),Shapes,Siliceous cytoskeleton (Frustules) 
+Absorb energy,Plant,The shape of the body part (Coconut trunk),Full Body part contour (trunk) (Plants),Shapes,"Cork, Vascular tissue, Vascular cambium "
+Absorb energy,Animal,Overall shape (Balanus) ,Full Body contour (Animals),Shapes,Combination of parietal and longitudinal canal tissue 
+Promote interlock,Animal,Shape of the body part (Insect claws),Body part contour (Claw) (Animals),Shapes,Keratin structural proteins/Keratinous material 
+Reduce rupture or puncture,Animal,Beak (Kingfisher beak),Cross-section of the body part (Outer plate and Stochastic tessellation) ,Cross-sections,Sandwich structure of keratin and bony layer 
+Absorb energy,Animal,Beak-cross section (Kingfisher beak),Cross-section of the body part (Stochastic tessellation of gradient pores: Vascular bundles),Cross-sections,Vascular cambium; Xylem and Phloem 
+Absorb energy,Plant,Stem-cross section (Bamboo),Cross-section of the body part (Stochastic tessellation),Cross-sections,"Vascular bundle, endodermis and Sclerenchyma "
+Absorb energy,Plant,Tree trunk-cross section (Palm tree),Cross-section of the body part (Stochastic tessellation of gradient pores: Vascular bundles),Cross-sections,"Cork, Vascular tissue, Vascular cambium "
+Resist bending,Plant,Leaves-cross section (cattail),Cross-section of the body part (leaves),Cross-sections,Vascular cambium; Xylem and Phloem  
+Resist bending and Absorb energy,Animal,Beak-cross section (Toucan and hornbill),Cross-section of the body part (Outer composite plate and inner stochastic tessellation: spongy bone),Cross-sections,Exterior keratin and fibrous bony network (trabeculae) 
+Resist bending,Plant, Leaves-cross section (Iris),Cross-section of the body part (Stochastic tessellation: Vascular bundles),Cross-sections,Sclerenchyma
