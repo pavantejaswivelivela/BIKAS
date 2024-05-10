@@ -11,8 +11,7 @@ import pandas as pd
 df = pd.read_csv('xDID.csv')
 df1 = pd.read_csv('xDID.csv')
 
-app = dash.Dash(    __name__,
-    server=server) # Application Name
+app = dash.Dash(__name__) # Application Name
 app = app.server
 #auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
 features = df.columns # only contains columns ['Embodiment Function', 'Biological Feature Characteristic' etc]
