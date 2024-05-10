@@ -89,7 +89,7 @@ app.layout = html.Div([
             style={'textAlign':'center','color': 'Black'}),
     html.H3('This is an interactive knowledge database for Multifunctional Bio-inspired Design (MBID) Ideation System', style={'textAlign':'center','color': 'Black'}),
     html.H3('Multifunctional Bio-inspired Design (MBID) is a rapid ideation system developed for the generation of multifunctional bio-inspired designs.', style={'textAlign':'center','color': 'Black'}),
-    html.H3('A brief description about the Multifunctional Bio-inspired design ideation system can be accessed here  ', style={'textAlign':'center','color': 'Black'}),
+    html.H3('A brief description about the Multifunctional Bio-inspired design ideation system can be accessed here <a href='http://google.com'>google</a> ', style={'textAlign':'center','color': 'Black'}),
     html.H3('The following are the interactive knowledge graphs that provides the user with the details of the biological feature, its embodiment function, its corresponding domain and the tissue from which it originates.',
             style={'textAlign':'center','color': 'Black'}),
     html.Div([dcc.Graph(id='bubble-chart1', figure = fig1)],style = {'width': '100%','display': 'inline-block'}),
