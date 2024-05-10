@@ -4,7 +4,7 @@ from dash import html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import pandas as pd
-import dash_auth # pip install dash-auth
+#import dash_auth # pip install dash-auth
 
 USERNAME_PASSWORD_PAIRS = [['username','password'], ['Bikasvisual', 'Bikas@Mcgill']]
 
@@ -12,7 +12,8 @@ df = pd.read_csv('xDID.csv')
 df1 = pd.read_csv('xDID.csv')
 
 app = dash.Dash() # Application Name
-auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
+app = app.server
+#auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
 features = df.columns # only contains columns ['Embodiment Function', 'Biological Feature Characteristic' etc]
 
 color_map = {'Surfaces':'red', 'Cross-sections':'blue', 'Shapes':'black', 'Cellular structures': 'green'}
