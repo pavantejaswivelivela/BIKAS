@@ -6,12 +6,13 @@ import plotly.graph_objs as go
 import pandas as pd
 #import dash_auth # pip install dash-auth
 
-USERNAME_PASSWORD_PAIRS = [['username','password'], ['Bikasvisual', 'Bikas@Mcgill']]
+#USERNAME_PASSWORD_PAIRS = [['username','password'], ['Bikasvisual', 'Bikas@Mcgill']]
 
 df = pd.read_csv('xDID.csv')
 df1 = pd.read_csv('xDID.csv')
 
-app = dash.Dash() # Application Name
+app = dash.Dash(    __name__,
+    server=server) # Application Name
 app = app.server
 #auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
 features = df.columns # only contains columns ['Embodiment Function', 'Biological Feature Characteristic' etc]
