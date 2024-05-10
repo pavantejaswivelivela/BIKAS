@@ -13,6 +13,55 @@ df1 = pd.read_csv('xDID.csv')
 
 app = dash.Dash(__name__) # Application Name
 app = app.server
+
+app.layout = html.Div([
+    html.H1('BIKAS: Bio-inspired Knowledge Acquisition and Simulacrum',
+            style={'textAlign':'center','color': 'Black'}),
+    html.H3('This is an interactive knowledge database for Multifunctional Bio-inspired Design (MBID) Ideation System', style={'textAlign':'center','color': 'Black'}),
+    html.H3('The following are the interactive knowledge graphs that provides the user with the details of the biological feature, its embodiemnt function, its corresponding domain and the tissue from which it originates.',
+            style={'textAlign':'center','color': 'Black'}),
+    html.H3(''),
+    html.Div([dcc.Graph(id='bubble-chart1', figure = fig1)],style = {'width': '90%','display': 'inline-block'}),
+    html.Div([dcc.Graph(id='bubble-chart2', figure = fig2)],style = {'width': '90%','display': 'inline-block'}),
+    html.Div([dcc.Graph(id='bubble-chart3', figure = fig3)],style = {'width': '90%','display': 'inline-block'}),
+    html.Div([dcc.Graph(id='bubble-chart4', figure = fig4)],style = {'width': '90%','display': 'inline-block'}),
+    html.Div([dcc.Graph(id='HeatMap', figure = fig5)],style = {'width': '90%','display': 'inline-block'}),
+    html.Div([dcc.Interval(id='interval-component', interval = 5000, n_intervals=0)]),
+    #dcc.Graph(id ='feature-graphic'),
+     #html.Div([
+        #dcc.Dropdown(id ='xaxis_name',
+                     #options=[{'label': i, 'value':i} for i in features],
+                     #value = 'Embodiment Function')
+    #], style = {'width':'48%','display':'inline-block'}),
+    #html.Div([
+        #dcc.Dropdown(id = 'yaxis_name',
+                     #options=[{'label': i, 'value':i} for i in features],
+                     #value = 'Domain')
+    #], style = {'width':'48%', 'display':'inline-block'})
+])
+
+#@app.callback(Output('bubble-chart1', 'bubble-chart2'),
+              #[Input('interval-component', 'n_intervals')])
+
+#def update_layout(n):
+    #return "{} Page Refereshs".format(n)
+
+#@app.callback(Output('feature-graphic','figure'),
+              #[Input('xaxis_name','value'),
+               #Input('yaxis_name','value')])
+
+#def update_graph(xaxis_name, yaxis_name):
+    #return {'data': [go.Scatter(x=df1[xaxis_name],
+                                #y=df1[yaxis_name],
+                                #text=df1['Domain'],
+                                #mode='markers',
+                                #marker= dict(color = df_color))
+                            #],
+            #'layout':go.Layout( xaxis = {'title':xaxis_name},
+                                #yaxis = {'title':yaxis_name})} 
+
+
+
 #auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
 features = df.columns # only contains columns ['Embodiment Function', 'Biological Feature Characteristic' etc]
 
@@ -85,50 +134,6 @@ layout5 = go.Layout(title='HeatMap',
 fig5 = go.Figure(data=data5, layout=layout5)
 
 
-app.layout = html.Div([
-    html.H1('BIKAS: Bio-inspired Knowledge Acquisition and Simulacrum',
-            style={'textAlign':'center','color': 'Black'}),
-    html.H3('This is an interactive knowledge database for Multifunctional Bio-inspired Design (MBID) Ideation System', style={'textAlign':'center','color': 'Black'}),
-    html.H3('The following are the interactive knowledge graphs that provides the user with the details of the biological feature, its embodiemnt function, its corresponding domain and the tissue from which it originates.',
-            style={'textAlign':'center','color': 'Black'}),
-    html.H3(''),
-    html.Div([dcc.Graph(id='bubble-chart1', figure = fig1)],style = {'width': '90%','display': 'inline-block'}),
-    html.Div([dcc.Graph(id='bubble-chart2', figure = fig2)],style = {'width': '90%','display': 'inline-block'}),
-    html.Div([dcc.Graph(id='bubble-chart3', figure = fig3)],style = {'width': '90%','display': 'inline-block'}),
-    html.Div([dcc.Graph(id='bubble-chart4', figure = fig4)],style = {'width': '90%','display': 'inline-block'}),
-    html.Div([dcc.Graph(id='HeatMap', figure = fig5)],style = {'width': '90%','display': 'inline-block'}),
-    html.Div([dcc.Interval(id='interval-component', interval = 5000, n_intervals=0)]),
-    #dcc.Graph(id ='feature-graphic'),
-     #html.Div([
-        #dcc.Dropdown(id ='xaxis_name',
-                     #options=[{'label': i, 'value':i} for i in features],
-                     #value = 'Embodiment Function')
-    #], style = {'width':'48%','display':'inline-block'}),
-    #html.Div([
-        #dcc.Dropdown(id = 'yaxis_name',
-                     #options=[{'label': i, 'value':i} for i in features],
-                     #value = 'Domain')
-    #], style = {'width':'48%', 'display':'inline-block'})
-])
 
-#@app.callback(Output('bubble-chart1', 'bubble-chart2'),
-              #[Input('interval-component', 'n_intervals')])
-
-#def update_layout(n):
-    #return "{} Page Refereshs".format(n)
-
-#@app.callback(Output('feature-graphic','figure'),
-              #[Input('xaxis_name','value'),
-               #Input('yaxis_name','value')])
-
-#def update_graph(xaxis_name, yaxis_name):
-    #return {'data': [go.Scatter(x=df1[xaxis_name],
-                                #y=df1[yaxis_name],
-                                #text=df1['Domain'],
-                                #mode='markers',
-                                #marker= dict(color = df_color))
-                            #],
-            #'layout':go.Layout( xaxis = {'title':xaxis_name},
-                                #yaxis = {'title':yaxis_name})} 
 if __name__=='__main__':
     app.run_server()
