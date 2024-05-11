@@ -104,7 +104,7 @@ app.layout = html.Div([
     html.Div([dcc.Graph(id='bubble-chart4', figure = fig4)],style = {'width': '100%','display': 'inline-block'}),
     #html.Div([dcc.Graph(id='HeatMap', figure = fig5)],style = {'width': '90%','display': 'inline-block'}),
     html.Div([dcc.Interval(id='interval-component', interval = 5000, n_intervals=0)]),
-    html.H4('Corresponding author: Porf. Yaoyao Fiona Zhao, Director Additive Design and Manufacturing Laboratory (ADML), McGill University, Montreal, Canada. Email: yaoyao.zhao@mcgill.ca', style={'textAlign':'center','color': 'Black'}),
+    html.H4('Corresponding author: Porf. Yaoyao Fiona Zhao, Additive Design and Manufacturing Laboratory (ADML), Department of Mechanical Engineering, McGill University, Montreal, Canada. Email: yaoyao.zhao@mcgill.ca', style={'textAlign':'center','color': 'Black'}),
     html.H4('Author: Pavan Tejaswi Velivela, Email: pavan.velivela@mail.mcgill.ca, pavan.velivela90@gmail.com, portfolio: https://sites.google.com/view/pavantejaswivelivela', style={'textAlign':'center','color': 'Black'})
     #dcc.Graph(id ='feature-graphic'),
      #html.Div([
