@@ -77,12 +77,12 @@ fig4 = go.Figure(data=data4, layout=layout4)
 
 df['Domain'].replace(['Surfaces', 'Cross-sections', 'Shapes', 'Cellular Structures'], 
                      [0,1,2,3])
-data5 = [go.Heatmap(x=df['Embodiment Function'], y=df['Biological feature characteristic'], z= df['Domain'].values.tolist(),
-        colorscale='jet')]
-layout5 = go.Layout(title='HeatMap',
-                    xaxis={'title': 'Embodiment Function'},
-                    yaxis=dict(title='Biological feature characteristic', color ='black'))
-fig5 = go.Figure(data=data5, layout=layout5)
+#data5 = [go.Heatmap(x=df['Embodiment Function'], y=df['Biological feature characteristic'], z= df['Domain'].values.tolist(),
+        #colorscale='jet')]
+#layout5 = go.Layout(title='HeatMap',
+                    #xaxis={'title': 'Embodiment Function'},
+                    #yaxis=dict(title='Biological feature characteristic', color ='black'))
+#fig5 = go.Figure(data=data5, layout=layout5)
 
 app.layout = html.Div([
     html.H1('BIKAS: Bio-inspired Knowledge Acquisition and Simulacrum',
@@ -96,7 +96,7 @@ app.layout = html.Div([
     html.Div([dcc.Graph(id='bubble-chart2', figure = fig2)],style = {'width': '100%','display': 'inline-block'}),
     html.Div([dcc.Graph(id='bubble-chart3', figure = fig3)],style = {'width': '100%','display': 'inline-block'}),
     html.Div([dcc.Graph(id='bubble-chart4', figure = fig4)],style = {'width': '100%','display': 'inline-block'}),
-    html.Div([dcc.Graph(id='HeatMap', figure = fig5)],style = {'width': '90%','display': 'inline-block'}),
+    #html.Div([dcc.Graph(id='HeatMap', figure = fig5)],style = {'width': '90%','display': 'inline-block'}),
     html.Div([dcc.Interval(id='interval-component', interval = 5000, n_intervals=0)]),
     #dcc.Graph(id ='feature-graphic'),
      #html.Div([
