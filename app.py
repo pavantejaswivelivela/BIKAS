@@ -40,7 +40,7 @@ data2 = [go.Scatter(x=df['Embodiment Function'],
                    y = df['Biological Feature'],
                    text = df['Domain'], # displays the name of the Domain when we hoverover the point
                    mode='markers',
-                   marker= dict(color = df_color)
+                   marker= dict(size =12, color = df_color, symbol ='hexagon', line = {'width':2})
         )]
 layout2 = go.Layout(title='Embodiment Function Vs Biological feature', 
                     xaxis={'title': 'Embodiment Function'},
@@ -52,7 +52,7 @@ data3 = [go.Scatter(x=df['Biological Feature'],
                    y = df['Tissues'],
                    text = df['Domain'], # displays the name of the Domain when we hoverover the point
                    mode='markers',
-                   marker= dict(color = df_color)
+                   marker= dict(size =12, color = df_color, symbol ='hexagon', line = {'width':2})
                    
         )]
 layout3 = go.Layout(title='Biological feature Vs. Tissues', 
@@ -65,7 +65,7 @@ data4 = [go.Scatter(x=df['Biological Feature'],
                    y = df['Domain'],
                    text = df['Biological feature characteristic'], # displays the name of the Domain when we hoverover the point
                    mode='markers',
-                   marker= dict(color = df_color)
+                   marker= dict(size =12, color = df_color, symbol ='hexagon', line = {'width':2})
                    
         )]
 layout4 = go.Layout(title='Biological feature Vs. Domain', 
