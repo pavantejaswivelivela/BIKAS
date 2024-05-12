@@ -98,6 +98,7 @@ app.layout = html.Div([
             style={'textAlign':'center','color': 'Brown'}),
     html.H3('More about the Multifunctional Bio-inspired Design (MBID) ideation system can be accessed via https://pavantejaswivelivela.github.io/Multifunctional-BID/', style={'textAlign':'center','color': 'Brown'}),
     html.H3('More about the unique multifunctional bio-inspired conceptual designs can be accessed via https://sites.google.com/view/pavantejaswivelivela', style={'textAlign':'center','color': 'Brown'}),
+    html.H3('Publication of BIKAS:  Velivela, P.T. and Zhao, Y.F., 2023. BIKAS: Bio-Inspired Knowledge Acquisition and Simulacrum—A Knowledge Database to Support Multifunctional Design Concept Generation. Data Intelligence, pp.1-28. DOI: https://doi.org/10.1162/dint_a_00240', style={'textAlign':'center','color': 'Brown'}),
     html.Div([dcc.Graph(id='bubble-chart1', figure = fig1)],style = {'width': '100%','display': 'inline-block'}),
     html.Div([dcc.Graph(id='bubble-chart2', figure = fig2)],style = {'width': '100%','display': 'inline-block'}),
     html.Div([dcc.Graph(id='bubble-chart3', figure = fig3)],style = {'width': '100%','display': 'inline-block'}),
@@ -105,7 +106,10 @@ app.layout = html.Div([
     #html.Div([dcc.Graph(id='HeatMap', figure = fig5)],style = {'width': '90%','display': 'inline-block'}),
     html.Div([dcc.Interval(id='interval-component', interval = 5000, n_intervals=0)]),
     html.H4('Corresponding author: Porf. Yaoyao Fiona Zhao, Additive Design and Manufacturing Laboratory (ADML), Department of Mechanical Engineering, McGill University, Montreal, Canada. Email: yaoyao.zhao@mcgill.ca', style={'textAlign':'center','color': 'Black'}),
-    html.H4('Author: Pavan Tejaswi Velivela, Email: pavan.velivela@mail.mcgill.ca, pavan.velivela90@gmail.com, portfolio: https://sites.google.com/view/pavantejaswivelivela', style={'textAlign':'center','color': 'Black'})
+    html.H4('Author: Pavan Tejaswi Velivela, Email: pavan.velivela@mail.mcgill.ca, pavan.velivela90@gmail.com, portfolio: https://sites.google.com/view/pavantejaswivelivela', style={'textAlign':'center','color': 'Black'}),
+    html.H4('© 2024 Pavan Tejaswi Velivela. All rights reserved, style={'textAlign':'center','color': 'Black'}),
+    html.H4('The land I work at is situated on the traditional territory of the Kanien’kehà:ka, a place which has long served as a site of meeting and exchange amongst many First Nations including the Kanien’kehá:ka of the Haudenosaunee Confederacy, Huron/Wendat, Abenaki, and Anishinaabeg.',
+           style={'textAlign':'center','color': 'Black'})
     #dcc.Graph(id ='feature-graphic'),
      #html.Div([
         #dcc.Dropdown(id ='xaxis_name',
