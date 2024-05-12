@@ -107,7 +107,7 @@ app.layout = html.Div([
     html.Div([dcc.Interval(id='interval-component', interval = 5000, n_intervals=0)]),
     html.H4('Corresponding author: Porf. Yaoyao Fiona Zhao, Additive Design and Manufacturing Laboratory (ADML), Department of Mechanical Engineering, McGill University, Montreal, Canada. Email: yaoyao.zhao@mcgill.ca', style={'textAlign':'center','color': 'Black'}),
     html.H4('Author: Pavan Tejaswi Velivela, Email: pavan.velivela@mail.mcgill.ca, pavan.velivela90@gmail.com, portfolio: https://sites.google.com/view/pavantejaswivelivela', style={'textAlign':'center','color': 'Black'}),
-    html.H4('© 2024 Pavan Tejaswi Velivela. All rights reserved, style={'textAlign':'center','color': 'Black'}),
+    html.H4('© 2024 Pavan Tejaswi Velivela. All rights reserved', style={'textAlign':'center','color': 'Black'}),
     html.H4('The land I work at is situated on the traditional territory of the Kanien’kehà:ka, a place which has long served as a site of meeting and exchange amongst many First Nations including the Kanien’kehá:ka of the Haudenosaunee Confederacy, Huron/Wendat, Abenaki, and Anishinaabeg.',
            style={'textAlign':'center','color': 'Black'})
     #dcc.Graph(id ='feature-graphic'),
